@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<title>Daniel's Personal Website</title>
 		<meta charset="utf-8" />
@@ -108,9 +108,7 @@ I received my PhD in Engineering and Information Technologies from the Universit
 											<td>
 												<tr>
 													<p class="title">
-														<br>
 														<b>Enhancing the Insertion of NOP Instructions to Obfuscate Malware via Deep Reinforcement Learning.</b>
-														</br>
 														<span class="author"></span>
 														D. Gibert, M. Fredrikson, C. Mateu, J. Planes, Q. Le.
 														</span>
@@ -323,7 +321,7 @@ I received my PhD in Engineering and Information Technologies from the Universit
 
 								<section id="section-thesis-summary">
 									<br>The fight against malware has never stopped since the dawn of computing. This fight has turned out to be a never-ending and cyclical arms race: as security analysts and researchers improve their defenses, malware developers continue to innovate, find new infection vectors and enhance their obfuscation techniques. Lately, due to the massive growth of malware streams, new methods have to be devised to complement traditional detection approaches and keep pace with new attacks and variants.</br>
-									<br>My thesis was built upon the work performed in my MsC and it further explores the use of machine learning-based methods to detect and classify malware, due to its ability to handle large volumes of data and to generalize to never-before-seen malware. More specifically, my dissertation presents various alternatives to manual feature engineering for the task of malware detection and classification. </br>
+									<br>My thesis was built upon the work performed during my <a href="http://www.covert.io/research-papers/deep-learning-security/Convolutional%20Neural%20Networks%20for%20Malware%20Classification.pdf"> Master's degree</a> and it further explores the use of machine learning-based methods to detect and classify malware, due to its ability to handle large volumes of data and to generalize to never-before-seen malware. More specifically, my dissertation presents various alternatives to manual feature engineering for the task of malware detection and classification. </br>
 									<br>To achieve this goal, research was divided into two main parts.</br>
 
 									 <ul>
@@ -338,9 +336,11 @@ I received my PhD in Engineering and Information Technologies from the Universit
 								</section>
 
 								<section id="section-selected-publications">
+									<!--
 									<header>
 									  <h3>Selected Publications</h3>
 									</header>
+									-->
 									<div id="div-survey">
 										<header>
 									  		<h4>The Rise of Machine Learning for Detection and Classification of Malware: Research Developments, Trends and Challenges</h4>
@@ -367,6 +367,7 @@ I received my PhD in Engineering and Information Technologies from the Universit
 										</br>
 										<br>To build the static classifier, we introduced a shallow convolutional neural network (CNN) architecture that extracts n-gram like features from malware’s machine instructions. </br>
 										<br>The main takeaways of this research article are as follows: (1) the required time for the feature extraction and classification process is lower than the computational time required to extract the N-grams for N ≥ 2; (2) although state-of-the-art multimodal approaches outperform our classifier, it has greater predictive power in comparison to opcode-based approaches in the literature and achieves higher classification accuracy than almost every other subset of features, i.e. API features, section features, etcetera.</br>
+										<br></br>
 										<embed src="images/CCIA_2017_poster.pdf" style="width:100%" height="1000px" />
 									</div>
 									<br> </br>
@@ -377,6 +378,7 @@ I received my PhD in Engineering and Information Technologies from the Universit
 										</header>
 										<br>To evade detection, malware authors employ a variety of obfuscation techniques to hide malicious code inside executables. The most common are encryption and compression, which are employed in most of the malware samples. In the information security industry, a common practice to detect the presence of encrypted or compressed segments hidden beneath portable executables is entropy analysis. In general, segments of code that have been compressed or encrypted tend to have higher entropy than native code.</br>
 										<br>In information theory, entropy (more specifically, Shannon’s entropy) is the expected value of the information contained in each message. Generally speaking, the entropy of a bytes sequence refers to the amount of disorder (uncertainty) or its statistical variation. If occurrences of all values are the same, the entropy will be larger. On the contrary, if certain byte values occur with high probabilities, the entropy value will be smaller. However, the use of simple entropy statistics may not be enough to detect sophisticated malware. Authors sometimes try to conceal encrypted or compressed code in a way that they pass through high entropy filters. For instance, they may add additional padding to reduce the mean file entropy. Thus, researchers started analyzing what is defined as the structural entropy of a file. In other words, each executable file is represented as a stream of entropy values, where each value describes the amount of entropy over a small chunk of code in a specific location of the file. Next figure displays the structural entropy of various malware executables belonging to two different families. It can be observed that the entropy streams extracted from malware samples belonging to the same family appear to be similar while distinct from those belonging to different families.</br>
+										<br></br>
 										<figure>
 										  <img src="images/ramnit_gatak_entropy_families_comparison_small.png" alt="Trulli" style="width:100%">
 										  <figcaption>Fig.2 - Structural entropy representation of samples belonging to the Ramnit and Gatak families.</figcaption>
@@ -391,6 +393,7 @@ I received my PhD in Engineering and Information Technologies from the Universit
 									  		<h4>Using Convolutional Neural Networks for Classification of Malware Represented as Images</h4>
 										</header>
 										<br>In this paper, malicious software is visualized as gray scale images since they capture minor changes while retaining the global structure of the executable helping to detect variations. To visualize a malware sample as an image, every byte has to be interpreted as one pixel in an image. Then, the resulting array has to be organized as a 2-D array and visualized as a gray scale image.</br>
+										<br></br>
 										<figure>
 	                                      <img src="images/grayscale_images_mlw.png" alt="Trulli" style="width:100%">
 										  <figcaption>Fig.3 - Grayscale image representation of malware belonging to different families.</figcaption>
@@ -411,7 +414,8 @@ I received my PhD in Engineering and Information Technologies from the Universit
 											 <li>The sequence of hexadecimal values representing malware’s binary content.</li>
 										</ul>
 										<br>An extensive analysis of state-of-the-art methods on the Microsoft Malware Classification Challenge benchmark shows that the proposed solution achieves comparable results to gradient boosting methods in the literature and higher yield in comparison with deep learning approaches.</br>
-									<figure>
+										<br></br>
+										<figure>
 	                                      <img src="images/hydra.png" alt="Trulli" style="width:100%">
 										  <figcaption>Fig.4 - HYDRA: a modular architecture for classifying malware.</figcaption>
 										</figure>
