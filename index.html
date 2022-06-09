@@ -53,7 +53,7 @@
 I received my PhD in Engineering and Information Technologies from the University of Lleida. In 2016, I received my Master’s in Artificial Intelligence from the Polytechnic University of Catalonia. My Ph.D. Thesis focused on the design, implementation, and evaluation of ML-based approaches for the task of malware detection and classification, due to its ability to handle large volumes of data and to generalize to never-before-seen malware.
 								</p>
 
-								<p>I have recently been awarded a Marie Curie Career Fit PLUS Fellow to conduct research on adversarial attacks and defenses against malware detectors. More information about the award can be found in <a href="https://horizoneurope.ie/career-fit-plus"> Horizon Europe's webpage.</a> The research project is being conducted in collaboration with <a href="https://research.ibm.com/labs/ireland/"> IBM's AI Security and Data Privacy Group.</a></p>
+								<p>I have been recently awarded a Marie Curie Career Fit PLUS Fellow to conduct research on adversarial attacks and defenses against malware detectors. More information about the award can be found in <a href="https://horizoneurope.ie/career-fit-plus"> Horizon Europe's webpage.</a> The research project is being conducted in collaboration with <a href="https://ceadar.ie/"> CeADAR</a> and <a href="https://research.ibm.com/labs/ireland/"> IBM's AI Security and Data Privacy Group.</a></p>
 
 								<header>
 									<h2>Research</h2>
@@ -82,7 +82,7 @@ I received my PhD in Engineering and Information Technologies from the Universit
 								  </br>
 								<a class="icon solid fa-location-arrow"><span> CeADAR, Block 9/10 NexusUCD, Belfield Office Park, Dublin </span></a>
 								  <br>
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5351.364218335679!2d-6.235912733270564!3d53.31171162028339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867094a8541643d%3A0x9cbdddb21a5b576!2sCeADAR!5e0!3m2!1sen!2sie!4v1654547480027!5m2!1sen!2sie" width=”600″ height=”450″ frameborder=”0″ style=”border:0″ allowfullscreen></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5351.364218335679!2d-6.235912733270564!3d53.31171162028339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867094a8541643d%3A0x9cbdddb21a5b576!2sCeADAR!5e0!3m2!1sen!2sie!4v1654547480027!5m2!1sen!2sie" width=100% height="400px" frameborder=”0″ style=”border:0″ allowfullscreen></iframe>
 								  </br>
 							  </div>
 							</section>
@@ -108,8 +108,9 @@ I received my PhD in Engineering and Information Technologies from the Universit
 											<td>
 												<tr>
 													<p class="title">
+														<br>
 														<b>Enhancing the Insertion of NOP Instructions to Obfuscate Malware via Deep Reinforcement Learning.</b>
-
+														</br>
 														<span class="author"></span>
 														D. Gibert, M. Fredrikson, C. Mateu, J. Planes, Q. Le.
 														</span>
@@ -326,8 +327,8 @@ I received my PhD in Engineering and Information Technologies from the Universit
 									<br>To achieve this goal, research was divided into two main parts.</br>
 
 									 <ul>
-									  <li>The first part consisted of the automation of the feature engineering process through deep learning. Deep learning replaces the feature engineering process by an underlying system, which typically consists of a neural network (NN) with multiple layers, that performs both feature learning and classification. With deep learning one can start with raw data as features will be automatically created by the network during the training procedure. When speaking of malware, and more specifically, malicious software targeting the Windows operating system, raw data refer to either the hexadecimal representation of malware’s binary content or the assembly language source code of the executable. Thus, we explored both representations during the development of the thesis.</li>
-									  <li>The second part explores mechanisms to combine multiple modalities of information to increase the robustness of deep learning classifiers. Modalities are, essentially, channels of information. These data from multiple sources are semantically correlated, and sometimes provide complementary information to each other, thus reflecting patterns that are not visible when working with individual modalities on their own. Consequently, by only taking as input the raw bytes or opcodes a great deal of useful information for classification is overlooked, such as structural information of the Portable Executable (PE) file, the import address table (IAT) which is used as a lookup table when the application is calling a function from a different module, etcetera. Subsequently, in the second part of the thesis various ways to combine multiple modalities of information in deep learning architectures are investigated.</li>
+									  <li>The first part consisted of the automation of the feature engineering process through deep learning. Deep learning replaces the feature engineering process by an underlying system, which typically consists of a neural network (NN) with multiple layers, that performs both feature learning and classification. With deep learning one can start with raw data as features will be automatically created by the network during the training procedure.</li>
+									  <li>The second part explores mechanisms to combine multiple modalities of information to increase the robustness of deep learning classifiers. Modalities are, essentially, channels of information. These data from multiple sources are semantically correlated, and sometimes provide complementary information to each other, thus reflecting patterns that are not visible when working with individual modalities on their own. Consequently, by only taking as input the raw bytes or opcodes a great deal of useful information for classification is overlooked, such as structural information of the Portable Executable (PE) file, the import address table (IAT), etcetera.</li>
 									</ul>
 									<br>The following Figure presents an overview of the research work done during my PhD studies. For more information about each paper I refer the reader to the <a href="#publications"> original publications</a> or the <a href="https://www.tdx.cat/handle/10803/671776"> following link to my thesis.</a> </br>
 									 <figure>
@@ -345,7 +346,16 @@ I received my PhD in Engineering and Information Technologies from the Universit
 									  		<h4>The Rise of Machine Learning for Detection and Classification of Malware: Research Developments, Trends and Challenges</h4>
 										</header>
 										<br>This article provides a systematic and detailed overview of machine learning techniques to tackle the problem of malware detection and classification and in particular, deep learning techniques.</br>
-										<br>The main contributions of this article to the state-of-the-art are the following: (1) it provides a complete description of the methods and features in a traditional machine learning workflow for malware detection and classification; (2) it explores the challenges and limitations of traditional machine learning; (3) it analyzes recent trends and developments in the field with special emphasis on deep learning approaches; (4) it presents the research issues and unsolved challenges of the state-of-the-art techniques; and (5) it discusses new directions of research. This survey aims to help researchers to have an understanding of the malware detection field and of the new developments and directions of research explored by the scientific community to tackle the problem.</br>
+										<p>The main contributions of this article to the state-of-the-art are the following:</p>
+										<ul>
+										  <li>It provides a complete description of the methods and features in a traditional machine learning workflow for malware detection and classification.</li>
+										  <li>It explores the challenges and limitations of traditional machine learning.</li>
+										  <li>It analyzes recent trends and developments in the field with special emphasis on deep learning approaches.</li>
+										  <li>It presents the research issues and unsolved challenges of the state-of-the-art techniques.</li>
+										  <li>It discusses new directions of research.</li>
+										</ul>
+										<p>This survey aims to help researchers to have an understanding of the malware detection field and of the new developments and directions of research explored by the scientific community to tackle the problem.</p>
+
 									</div>
 									<br> </br>
 									<br> </br>
