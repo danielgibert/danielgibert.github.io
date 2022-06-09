@@ -2190,3 +2190,32 @@ input, select, textarea {
 
 		}
 
+
+ul {
+  display: block;
+  margin-left: -10px;
+}
+
+ul li {
+  display: block;
+  position: relative;
+}
+
+ul li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+ul li:before {
+  content: "";
+  position: absolute;
+  top: 1.5em;
+  left: -10px;
+  margin-top: -.9em;
+  background: linear-gradient(45deg, #f69ec4, #f9dd94);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+
+
