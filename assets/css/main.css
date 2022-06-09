@@ -2208,8 +2208,8 @@ ul li:not(:last-child) {
 ul li:before {
   content: "";
   position: absolute;
-  top: 1.5em;
-  left: -10px;
+  top: 1.3em;
+  left: -1em;
   margin-top: -.9em;
   background: linear-gradient(45deg, #f69ec4, #f9dd94);
   height: 20px;
