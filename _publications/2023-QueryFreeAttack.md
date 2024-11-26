@@ -6,7 +6,7 @@ permalink: /publication/2023-IEEE-Security-And-Privacy-Workshops
 date: 2023-09-23
 excerpt: 'This work presents a query-free approach to craft adversarial malware examples to evade ML-based malware detectors
 using Generative Adversarial Networks.'
-venue: '2023 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW).'
+venue: 'IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10190713' #Add here link to paper
 citation: 'Daniel Gibert, Jordi Planes, Quan Le, Giulio Zizzo. (2023). &quot;A Wolf in Sheep’s Clothing: Query-Free Evasion Attacks Against Machine Learning-Based Malware Detectors with Generative Adversarial Networks.&quot; <i>2023 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)</i>.'
 ---

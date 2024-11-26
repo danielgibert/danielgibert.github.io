@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2024-ESORICS-RandomizedSmoothing
 date: 2024-04-12
 excerpt: 'This paper presents a defense against adversarial EXEmples based on randomized smoothing.'
-venue: 'ESORICS 2023 International Workshops. Workshops on Security and Artificial Intelligence (SECAI 2023). Lecture Notes in Computer Science. Springer.'
+venue: 'ESORICS 2023 International Workshops. Workshops on Security and Artificial Intelligence (SECAI). Lecture Notes in Computer Science. Springer'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-031-54129-2_40' #Add here link to paper
 citation: 'Daniel Gibert, Giulio Zizzo and Quan Le. (2023). &quot;Towards a Practical Defense Against Adversarial Attacks on Deep Learning-Based Malware Detectors via Randomized Smoothing.&quot; <i>Workshop on Security and Artificial Intelligence (SECAI 2023)</i>.'
 ---

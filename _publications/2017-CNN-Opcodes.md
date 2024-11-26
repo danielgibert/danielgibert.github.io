@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2017-CNN-Opcodes
 date: 2017-01-01
 excerpt: 'We propose a CNN architecture that learns N-gram like features from malware assembly language source code.'
-venue: 'CCIA 2017.'
+venue: 'CCIA'
 paperurl: 'https://ebooks.iospress.nl/doi/10.3233/978-1-61499-806-8-221' #Add here link to paper
 citation: 'Daniel Gibert, Carles Mateu, Jordi Planes, Daniel Solis, Ramon Vicens (2017). &quot;Convolutional neural networks for classification of malware assembly code.&quot; <i>CCIA 2017</i>.'
 ---

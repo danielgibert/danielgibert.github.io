@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2018-StructuralEntropy
 date: 2018-01-01
 excerpt: 'We introduce a deep learning approach for malware classification based on the structural entropy representation of Portable Executable files.'
-venue: 'IAAI-AAAI 2018.'
+venue: 'IAAI-AAAI'
 paperurl: 'https://ojs.aaai.org/index.php/AAAI/article/view/11409' #Add here link to paper
 citation: 'Daniel Gibert, Carles Mateu, Jordi Planes. (2018). &quot;Classification of malware by using structural entropy on convolutional neural networks.&quot; <i>IAAI-AAAI 2018</i>.'
 ---

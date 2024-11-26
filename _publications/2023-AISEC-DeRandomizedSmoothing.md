@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2024-AISEC-DeRandomizedSmoothing
 date: 2023-09-23
 excerpt: 'This paper presents an adversarial defense based on (de)randomized smoothing that provides deterministic robustness certificates against patch and append attacks on end-to-end malware detectors.'
-venue: '16th ACM Workshop on Artificial Intelligence and Security (AISEC 2023).'
+venue: '16th ACM Workshop on Artificial Intelligence and Security (AISEC)'
 paperurl: 'https://dl.acm.org/doi/abs/10.1145/3605764.3623914' #Add here link to paper
 citation: 'Daniel Gibert, Giulio Zizzo and Quan Le. (2023). &quot;Certified robustness of static deep learning-based malware detectors against patch and append attacks.&quot; <i>16th ACM Workshop on Artificial Intelligence and Security (AISEC 2023)</i>.'
 ---

@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2020-Orthrus
 date: 2020-01-01
 excerpt: 'We introduce Orthrus, a bimodal approach for malware categorization based on deep learning..'
-venue: ' International Joint Conference on Neural Networks (IJCNN 2020).'
+venue: ' International Joint Conference on Neural Networks (IJCNN)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9206671' #Add here link to paper
 citation: 'Daniel Gibert, Carles Mateu, Jordi Planes. (2020). &quot;Orthrus: A Bimodal Learning Architecture for Malware Classification.&quot; <i>IJCNN 2020</i>.'
 ---
