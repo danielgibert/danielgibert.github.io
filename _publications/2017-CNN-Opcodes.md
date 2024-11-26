@@ -12,11 +12,11 @@ citation: 'Daniel Gibert, Carles Mateu, Jordi Planes, Daniel Solis, Ramon Vicens
 
 
 
-Traditional signature-based methods have started becoming inadequnate to deal with next generation malware which 
+Traditional signature-based methods have started becoming inadequate to deal with next generation malware which 
 utilize  obfuscation (polymorphic and metamorphic) techniques to evade detection. Recently, research efforts have been conducted on malware detection and classification by applying machine learning techniques.
 Despite them, most methods are build on shallow learning architectures and rely on the extraction of hand-crafted features.
 
 In this paper, based on assembly language code extracted from disassembled binary files and embedded into vectors,
-we present a convolutional neural network architecture to learn a set of discriminative patterns able to cluster malware files amongst families.
+we present a convolutional neural network architecture to learn a set of discriminative opcode patterns able to cluster malware files amongst families.
 
-[CCIA_2017_poster.pdf](../images/CCIA_2017_poster.pdf)
+![CCIA_2017_poster.pdf](../images/CCIA_2017_poster.pdf)
